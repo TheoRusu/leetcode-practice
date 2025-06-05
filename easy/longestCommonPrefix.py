@@ -15,7 +15,7 @@
 # 0 <= strs[i].length <= 200
 # strs[i] consists of only lowercase English letters if it is non-empty.
 
-# O(n*m) where m is length of first string, O(1) space complexity
+# O(n*m) time complexity where m is length of first string, O(1) space complexity
 def longestCommonPrefix(strs: list[str]):
     """
     :type strs: List[str]
